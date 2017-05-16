@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yuniku | No duplicates in array of objects</title>
+    <style>
+        html, body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: "Helvetica", sans-serif;
+            font-weight: 300;
+            color: #333;
+
+        }
+
+        .wrapper {
+            max-width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 72px;
+            margin: 0;
+        }
+
+        p {
+            font-family: "Courier New";
+            font-size: 24px;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Yuniku</h1>
+    <p>Fire up your console 🔥 </p>
+</div>
+<script src="main.js"></script>
+<script>
+    (function () {
+        var data = [
+            {
+                name: "John",
+                code: "124"
+            },
+            {
+                name: "George",
+                code: "122"
+            },
+            {
+                name: "John",
+                code: "xxx"
+            },
+            {
+                name: "Ringo",
+                code: "124"
+            },
+            {
+                name: "Paul",
+                code: "123"
+            },
+            {
+                name: "George",
+                code: "111"
+            },
+        ];
+        console.log("No duplicates: " + JSON.stringify(yuniku.filter(data, "name")));
+    })();
+</script>
+</body>
+</html>
