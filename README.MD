@@ -1,8 +1,8 @@
-#Yuniku
+# Yuniku
 
 A simple function to kick out duplicate values from an array of objects in JavaScript. 
 
-###How to
+### How to
 
 Array with duplicates 
 ```js
